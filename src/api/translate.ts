@@ -36,7 +36,7 @@ export const prompts: Router.Spec = {
     let params: any = {
       SourceText: inputText,
       Source: 'auto',
-      Target: 'zh',
+      Target: to ?? 'zh',
       ProjectId: 0,
     }
 
